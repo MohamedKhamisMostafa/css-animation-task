@@ -16,3 +16,35 @@ div{
     animation-fill-mode: forwards; */
     animation: x 5s linear 2s 1 normal forwards;
 }
+
+@keyframes x{
+
+    0%{
+        background: aqua;
+        translate: 0 0;
+        rotate: 0;
+       
+    }
+    25%{
+        background-color: yellow;
+        translate: 0 500px;
+        rotate: 90deg;
+    
+    }
+    50%{
+        background-color: green;
+        translate: 500px 500px;
+        rotate: 180deg;
+    }
+    75%{
+        background-color: blue ;
+        translate: 500px 0px;
+        rotate: 270deg;
+    }
+    100%{
+        background-color: darkgray;
+        translate: 0 0;
+        rotate: 360deg;
+    }
+    
+}
